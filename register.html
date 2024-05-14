@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Register</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#" class="font-bold text-lg text-primary block py-6">Ini Logo</a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="pojokan" name="pojokan" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="pojokan-nav transition duration-300 origin-top-left"></span>
+                    <span class="pojokan-nav transition duration-300"></span>
+                    <span class="pojokan-nav transition duration-300 origin-bottom-left "></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="/index.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="/katalog.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Katalog</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Layanan</a>
+                        </li>
+                        <li class="group">
+                            <a href="#" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Kami</a>
+                        </li>
+                        <li class="group">
+                            <a href="/login.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">LOGIN</a>
+                        </li>
+                        <li class="group">
+                            <a href="/register.html" class="text-base font-bold text-white py-1 mx-8 flex  bg-primary px-7 rounded-lg group-hover:text-white hover:bg-sky-700">Registrasi</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+    <div class="mt-36 max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-serif hover:bg-slate-100 group">
+        <h5 class="font-bold text-center text-slate-700 text-lg mb-3 ">Registrasi</h5>
+        <form action="">
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+                <div class="w-full px-4 mb-8">
+                    <label for="name" class="text-base text-primary font-bold">Nama</label>
+                    <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary focus:bg-white">
+                </div>
+                <div class="w-full px-4 mb-8">
+                    <label for="email" class="text-base text-primary font-bold">Email</label>
+                    <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary focus:bg-white">
+                </div>
+                <div class="w-full px-4 mb-8">
+                    <label for="email" class="text-base text-primary font-bold">Umur</label>
+                    <input type="number" id="umur" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary focus:bg-white">
+                </div>
+                <div class="w-full px-4">
+                    <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Kirim</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="src/js/script-nav.js"></script>
+</body>
+</html>
